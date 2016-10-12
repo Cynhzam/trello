@@ -34,5 +34,12 @@ window.addEventListener("load", function(){
         container.appendChild(nuevoForm);
         nuevoForm.appendChild(titulo);
         nuevoForm.appendChild(link);
+    
+        var nuevaTarjeta = document.createElement("div");
+        box.appendChild(nuevaTarjeta);
+        nuevaTarjeta.classList.add("rigth");
+
+        nuevaTarjeta.appendChild(span);
+        span.classList.remove("none");
     }
 });
