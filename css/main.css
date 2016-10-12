@@ -33,11 +33,24 @@ body{
 	background-color: #DCDCDC;
 	border-radius: 5px;
 	padding: 5px;
-	width: 170px; 
+	width: 180px; 
 }
 .none{
 	display: none;
 }
 .block{
 	display: block;
+}
+.fondo-form{
+	background-color: #DCDCDC;
+	border-radius: 5px;
+	padding: 5px;
+	width: 180px;
+}
+#container{
+	display: inline-block;
+	vertical-align: top;
+}
+.rigth{
+	display: inline-block;
 }
